@@ -32,7 +32,6 @@ public class consonant {
 
         System.out.println("Total number of consonant in the full name= "+consonant);
 
-
         String rep= sentence.replaceAll("consonant","*");
 
         System.out.println(rep);
