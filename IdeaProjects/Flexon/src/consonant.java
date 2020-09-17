@@ -32,9 +32,9 @@ public class consonant {
 
         System.out.println("Total number of consonant in the full name= "+consonant);
 
-        String rep= sentence.replaceAll("consonant","*");
+        String rep= sentence.replaceAll("[b-df-hj-np-tv-z]", "*");
 
-        System.out.println(rep);
+        System.out.println("String with replaced consonant with * = "+rep);
     }
 }
 
